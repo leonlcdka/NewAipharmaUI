@@ -3,7 +3,11 @@ export default {
         name: 'Buster',
     }),
 
-    getters: {},
+    getters: {
+        NAME(state) {
+            return state.name
+        }
+    },
 
     mutations: {
         SET_NAME(state, payload) {
