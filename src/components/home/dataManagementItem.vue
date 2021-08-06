@@ -1,10 +1,10 @@
 <template>
     <div class="rounded-md bg-personInfo p-4">
         <div class="flex justify-between items-center">
-            <div class="font-bold bg-red-700">
+            <div class="font-bold">
                 {{ sites[0].name }}
             </div>
-            <div class="ml-4 bg-red-500 flex justify-start items-center">
+            <div class="ml-4 flex justify-start items-center">
                 <div
                     class="bg-white rounded-full h-16 w-16 flex justify-center"
                 >
@@ -13,7 +13,7 @@
                         src="../../assets/image/AI-PHARMA_logo.svg"
                     />
                 </div>
-                <div class="bg-yellow-200">
+                <div class="">
                     <div class="flex justify-end" @click="isDown = !isDown">
                         <img
                             class="h-3 mt-2 ml-2 mr-1"
